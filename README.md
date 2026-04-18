@@ -162,7 +162,7 @@ Below is the core generation flow pulled from the skill:
 ### Generate Specification
 
 ```bash
-/spec-generator spec MPYB-1234 myAPP --depth targeted
+/spec-generator spec story-number your-project --depth targeted
 ```
 
 #### Execution Flow
