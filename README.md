@@ -65,7 +65,7 @@ Both skills follow the same general pattern:
 - output structure
 - error handling and best practices
 
-That structure matters because it turns the markdown file into an operational guide for an agent, not just reference documentation.
+That structure matters because it turns the markdown file into an operational guide for an agent, not just reference documentation. The individual parts of the knowledge base and the technical spec skills contain core information about how the AI should actually use the skill, but it also shows examples of how it is integrated and configured into a real workflow.
 
 ### 1. Knowledge Base Skill
 The knowledge base skill is the foundation. Its purpose is to analyze a codebase and generate persistent documentation that other skills can use later for context.
@@ -140,7 +140,7 @@ Knowledge base initialized for {project-name}
 This is the part that turns the skill from an idea into an actual workflow. It shows that the knowledge base is not just handwritten notes. It is generated through a repeatable process: validate config, inspect the project, analyze patterns, write structured outputs, and validate the results.
 
 ### 2. Spec Generator Skill
-The spec generator skill takes a project story or ticket and turns it into a more complete technical specification using the knowledge base plus targeted exploration.
+The spec generator skill takes a project story or ticket and turns it into a more complete technical specification using the knowledge base plus targeted exploration. This will be a detailed file that an AI agent can use to work off of.
 
 #### What it does
 At a high level, the skill:
