@@ -8,37 +8,32 @@
 
 ## Key Points From the Talk
 
-### 1. AI in software engineering should be discussed with nuance
-The talk separates hype from reality rather than assuming either extreme. One of the main themes is that strong claims about AI replacing developers should be examined against actual workflows, real constraints, and what teams are seeing in practice.
+1. **AI in software engineering should be discussed with nuance**  
+   Strong claims about AI replacing developers should be evaluated against real workflows, practical constraints, and what teams are actually seeing in practice.
 
-### 2. The field has moved from prompting to structured workflows
-A major shift in the last few years has been from simple browser prompting to AI systems that can use tools, retrieve context, and work across multiple steps. The notes frame this as the rise of agents, then agent teams, and finally orchestration.
+2. **The field has moved from prompting to structured workflows**  
+   The industry has shifted from simple browser prompting toward systems that use tools, retrieve context, and operate across multiple steps through agents, agent teams, and orchestration.
 
-### 3. Standardization matters
-The presentation emphasizes that useful AI workflows are not just about model quality. They also depend on standardization:
-- tools give models predefined actions
-- skills give models reusable instructions and examples
-- MCP provides a standard way to connect external systems
-- orchestration coordinates all of these across multiple steps
+3. **Standardization matters**  
+   Effective AI workflows depend not just on model quality, but on structure. Tools define actions, skills provide reusable instructions and examples, MCP standardizes external connections, and orchestration coordinates these pieces across multi-step workflows.
 
-### 4. Context is often the real bottleneck
-A recurring point in the talk is that many AI failures come from missing context rather than raw model weakness. Clear documentation, known patterns, examples, and precise inputs reduce hallucinations and make output more consistent.
+4. **Context is often the real bottleneck**  
+   Many AI failures come from missing or incomplete context rather than raw model weakness. Clear documentation, known patterns, examples, and precise inputs improve consistency and reduce hallucinations.
 
-### 5. Knowledge bases are a practical foundation
-The talk positions a knowledge base as one of the most useful assets for an AI workflow. It gives an agent the kind of context a developer would want when joining a project: architecture, patterns, feature areas, APIs, and observability. That improves consistency, reduces repeated repo scanning, and saves time.
+5. **Knowledge bases are a practical foundation**  
+   A strong knowledge base gives AI the project context a developer would want when joining a codebase, including architecture, patterns, feature areas, APIs, and observability. This improves consistency, reduces repeated scanning, and saves time.
 
-### 6. Refinement before implementation is important
-Another core point is that vague feature requests lead to vague outputs. Refinement should happen before code generation so that requirements, edge cases, and unresolved questions are made explicit.
+6. **Refinement before implementation is important**  
+   Vague feature requests lead to vague outputs. Requirements, edge cases, and open questions should be clarified before code generation begins.
 
-### 7. AI is strongest in clear, well-structured environments
-The notes argue that AI tends to perform best in new projects, well-documented repositories, and applications with clear patterns. It tends to perform worse in legacy systems, inconsistent codebases, and areas with undocumented business logic.
+7. **AI is strongest in clear, well-structured environments**  
+   AI performs best in new projects, well-documented repositories, and codebases with consistent patterns. It performs worse in legacy systems, inconsistent implementations, and areas with undocumented business logic.
 
-### 8. Output quality is not the same as time saved
-The talk notes that even if a large share of code can be AI-generated, that does not translate directly into equivalent time savings. Communication, debugging, review, and validation still take a large share of development time.
+8. **Output quality is not the same as time saved**  
+   Even when AI generates a large share of code, that does not translate directly into equal time savings. Communication, debugging, review, and validation still take a major share of development time.
 
-### 9. Human oversight is still central
-The final message is not that humans disappear, but that their role changes. Humans are still needed for judgment, accountability, security, communication, ambiguous requirements, review, testing, and cross-team coordination.
-
+9. **Human oversight is still central**  
+   The role of humans is changing, not disappearing. People are still needed for judgment, accountability, security, communication, ambiguous requirements, review, testing, and cross-team coordination.
 ## Important Resources
 
 ### 1. `addyosmani/agent-skills`
